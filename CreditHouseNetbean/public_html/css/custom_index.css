@@ -1,0 +1,15 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 18, 2014, 1:55:31 PM
+    Author     : ittinop
+*/
+
+.jumbotron {
+  max-width: 1440px;
+  min-height: 540px;
+  background-image: url('img/BannerGemCity.png');
+}
