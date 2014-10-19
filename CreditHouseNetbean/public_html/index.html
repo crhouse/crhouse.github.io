@@ -15,22 +15,30 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="js/vendor/jquery-2.1.1.min.js"></script>
+
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
     </head>
      
    <body>
        
     <div class="hero-container">
-        <div class="navbar-inverse navbar-fixed-top">
+        <div  id="navbarinverse" class="navbar-inverse navbar-fixed-top">
             <div class="navbar-header">
+              
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></a>
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></a>
+             
+<!--               <button type="button" class="navbar-toggle"></a>-->
+
 
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                <a class="navbar-brand" href="#"> <img src="img/Whitelogo_10_17_14.png"/></a>
+                <a class="navbar-brand" href="#"> <img class="navbar-logo"/></a>
             </div>
             <div class="collapse navbar-collapse navbar-ex1-collapse">
               <ul class="nav navbar-nav navbar-right">
@@ -50,9 +58,41 @@
             </div>
         </div>
         
+         <div  id="navbardefault" class="navbar-default navbar-fixed-top">
+            <div class="navbar-header">
+              
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></a>
+             
+<!--               <button type="button" class="navbar-toggle"></a>-->
+
+
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href="#"> <img class="navbar-logo"/></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a href="#">ลงทุน</a>
+                </li>
+                <li>
+                  <a href="#">สินเชื่อส่วนบุคคล</a>
+                </li>
+                <li>
+                  <a href="#">วิธีการใช้</a>
+                </li>
+                <li>
+                  <a href="#">สินเชื่อส่วนบุคคล</a>
+                </li>
+              </ul>
+            </div>
+        </div>
      
           <div class="hero-banner">
-            <h1>วิธีการขอสินเชื่อ และลงทุนแบบใหม่ ที่ให้ดอกเบี้ยที่ดีกว่า</h1>
+            <div class="hero-slogan"> <h1>วิธีการขอสินเชื่อ และลงทุนแบบใหม่<br>ที่ให้ดอกเบี้ยที่ดีกว่า</h1></div>
             <div class="row">
             <div class="col-md-6">
               <h2>เริ่มลงทุนกับเราเพื่อผลตอบแทนที่ดีกว่า</h2>
