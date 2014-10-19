@@ -1,6 +1,6 @@
 @font-face {
   font-family: ThaiSans;
-  scr: url("https://dl.dropboxusercontent.com/u/7325843/ThaiSansNeue-Regular.ttf");
+  src: url("../fonts/ThaiSansNeue-Regular.otf");
 }
 /*!
  * Bootstrap v3.2
@@ -279,11 +279,11 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "ThaiSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:  "Helvetica Neue", Helvetica, Arial,sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #bbbbbb;
+  background-color: white;
 }
 input,
 button,
@@ -370,16 +370,16 @@ hr {
 }
 h1,
 h2,
-h3,
+h3 {
+  font-family: "Thaisans";
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+    
 h4,
 h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
@@ -4216,14 +4216,16 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: transparent;
 }
 .navbar-inverse .navbar-toggle {
-  border-color: none;
+  border-color: none;//rgba(255, 255, 255, 0.952941);
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #333333;
+  background-color:transparent;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #a9abad;
+  background-color: rgba(255, 255, 255, 0.952941);
+  //border: 2px;
+  //color: rgba(255, 255, 255, 0.952941);
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
