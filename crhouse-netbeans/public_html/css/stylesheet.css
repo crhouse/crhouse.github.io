@@ -17,6 +17,7 @@ body{
     max-width: 1440px;
 }
 .navbar{
+    font-family: ThaiSans;
     font-size: 20px;
     text-align: center;
     background-color: transparent;
@@ -32,16 +33,48 @@ body{
 .navbar .btn {
     font-size: 18px;
     margin: 0px;
-    width:100%;
     padding:4px;
 }
 .hero{
     max-width: 1440px;
     min-height:600px;
    background-image:url('../img/bg-orangemeadow.jpg');
+   background-size: cover;
    background-repeat: no-repeat;
-   background-position: center;
+   background-position: 50% 50%;
 }
-.hero-banner{
+.landing{
     margin-top: 100px;
+    text-align: center;
+}
+.mixed-landing-forms{
+    padding: 16px;
+    border-radius: 3px;
+    background: rgba(255,255,255,.5)
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Roboto Slab Bold.woff2') format('woff2');
+}
+.landing h3{
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size:72px;
+    color:#99CCFF;
+}
+.landing ul li {
+    margin-bottom: 15px;
+}
+sup.apr{
+    font-family: sans-serif;
+    font-size: 14px;
+    vertical-align: super;
+}
+.spacer-10{height: 10px;}
+.spacer-20{height: 20px;}
+.spacer-40{height: 40px}
+.list-unstyled{
+    text-align: left;
 }
