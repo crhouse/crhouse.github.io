@@ -7,14 +7,19 @@ and open the template in the editor.
     Created on : Oct 19, 2014, 7:37:41 PM
     Author     : natthacha
 */
+body{
+    //background-color:#ddd;
+    height:2000px;
+}
 .navbar-container{
-    margin-top:15px;
-    margin-bottom:15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 1440px;
 }
 .navbar{
     font-size: 20px;
     text-align: center;
-    height: 40px;
+    background-color: transparent;
 }
 
 .sign-in, .sign-up {
@@ -29,4 +34,14 @@ and open the template in the editor.
     margin: 0px;
     width:100%;
     padding:4px;
+}
+.hero{
+    max-width: 1440px;
+    min-height:600px;
+   background-image:url('../img/bg-orangemeadow.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.hero-banner{
+    margin-top: 100px;
 }
