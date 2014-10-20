@@ -31,7 +31,12 @@ var main = function(){
         bgtransparent=!bgtransparent;
        
     });
-    
+        
+
+   $(function(){
+      $("#includedContent").load("icon.html"); 
+    });
+
 };
 
 $(document).ready(main);

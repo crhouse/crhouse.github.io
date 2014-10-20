@@ -47,7 +47,7 @@ body{
     margin-top: 100px;
     text-align: center;
 }
-.landing h1{
+h1{
    font-size: 60px;
 }
 .mixed-landing-forms{
@@ -85,3 +85,45 @@ sup.apr{
 .list-unstyled{
     text-align: left;
 }
+
+
+/*icon  */
+.circle-number{
+    text-align: center;
+    padding-top: 8px;
+    font-size: 60px;
+}
+.circle-border{
+    display: block;
+    width: 106px;
+    height: 106px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.circle-joint-green:after{
+    position:absolute;
+    top:105px;
+    left:67px;
+    bottom:0;
+    display:block;
+    content:'';
+    border-left:2px solid #814595!important
+}
+[class*=module-image-] .circle-joint-green:after{
+    border-color:#fff
+}
+@media only screen and (min-width:768px){
+    .circle-joint-green:after{
+        top:53px;
+        bottom:auto;
+        left:120px;
+        right:-15px;
+        border-top:2px solid #814595!important;
+        border-left:0
+    }
+*,:after,:before{
+    box-sizing: border-box;
+}
+
