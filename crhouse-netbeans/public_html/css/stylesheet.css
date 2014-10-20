@@ -47,6 +47,9 @@ body{
     margin-top: 100px;
     text-align: center;
 }
+.landing h1{
+   font-size: 60px;
+}
 .mixed-landing-forms{
     padding: 16px;
     border-radius: 3px;
@@ -58,7 +61,11 @@ body{
   font-weight: 700;
   src: url('../fonts/Roboto Slab Bold.woff2') format('woff2');
 }
+.landing h2{
+    margin-top: 10px;
+}
 .landing h3{
+    margin-top: 10px;
     font-family: 'Roboto Slab';
     font-weight: 700;
     font-size:72px;
